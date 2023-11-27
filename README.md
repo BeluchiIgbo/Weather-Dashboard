@@ -5,7 +5,7 @@
 
 build a weather dashboard that will run in the browser and feature dynamically updated HTML, CSS, JS.
 
-* Deployed website here 
+* https://beluchiigbo.github.io/Weather-Dashboard/ 
 
 ## User Story
 
