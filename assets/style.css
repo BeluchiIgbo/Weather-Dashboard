@@ -1,0 +1,91 @@
+body, .container{
+  margin: 0;
+  padding: 0;
+  font-family: "gill Sans", sans-serif;
+}
+
+h1, h2, h4 {
+  font-weight: bold;
+}
+
+/* header style */
+.weather-header {
+  padding: 10px;
+  color: white;
+  text-align: center;
+  background: rgb(103, 106, 201);
+  background: linear-gradient(90deg, rgba(103, 106, 201, 1) 0%, rgba(9, 9, 121, 1) 100%);
+}
+
+/* section */
+.container {
+  display: flex;
+  height: 95vh;
+}
+
+/*Search area styling*/
+form {
+   display: flex;
+   flex-direction: column;    
+}
+
+.search-section {
+  width: 400px;
+  padding: 25px;
+}
+
+.button-search {
+  color: white;
+  margin-top: 15px;
+  background-color:rgb(95, 133, 238);  
+}
+
+li {
+  margin-top: 10px;
+  list-style: none;
+  text-transform: capitalize;
+  text-align: center;
+  background-color: rgb(170, 170, 170);
+  color: black;
+}
+
+#city-input, .button-search, li {
+  border-radius: 5px;
+  height: 35px; 
+}
+
+#search-history {
+  margin-top: 35px;
+  padding: 0;    
+}
+
+
+
+/* weather card styling */
+.current-weather-card {
+  border: 1px rgb(29, 29, 29) solid;
+}
+
+.content-card {
+  padding: 25px;
+  flex-grow: 1; 
+}
+
+.forecast-cards section {
+  color: white;  
+  background-color:#313E62;
+  width: 150px;  
+  padding: 10px;
+}  
+
+.forecast-cards {
+  display: flex;
+  gap: 20px;
+}
+
+.current-weather-card h1 {
+  text-transform: capitalize;
+}
+
+
+

@@ -8,7 +8,35 @@
 </head>
 <body>
 
+  <section class="weather-header">
+    <h1>Weather Dashboard</h1>
+  </section>
+  
+<section class="container">
+<div class="search-section">
+  <!-- city search area -->
+  <form>
+    <h2>Search for the city:</h2>
+    <input id="city-input" type="text" placeholder="Enter the city">
+    <button class="button-search" type="submit">Search</button>
+    <ul id="search-history"></ul>
+  </form>
+</div>
 
-<script src="./Assets/script.js"></script>
+    <!--Primary weather card -->
+<div class="content-card">
+  <div class="current-weather-card">
+  </div>
+
+ <!-- forecast of the next 5 dates -->
+  <div class="day-forecast">
+    <h2>5-Day Forecast:</h2>
+    <div class="forecast-cards">
+      </div>
+  </div>
+</div>
+</section>
+
+<script src="./assets/script.js"></script>
 </body>
 </html>
