@@ -3,7 +3,7 @@
 
 ## Description
 
-build a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS.
+build a weather dashboard that will run in the browser and feature dynamically updated HTML, CSS, JS.
 
 * Deployed website here 
 
@@ -31,7 +31,7 @@ THEN I am again presented with current and future conditions for that city
 ## Assets
 
 The following image demonstrates the web application's appearance and functionality:
-![](assets/images/code-quiz-image.png) 
+![](assets/images/weather-sc.png) 
 
 ## Review
 
