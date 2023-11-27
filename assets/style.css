@@ -62,22 +62,17 @@ li {
 
 
 /* weather card styling */
-.current-weather-card {
-  border: 1px rgb(29, 29, 29) solid;
-}
 
 .content-card {
   padding: 25px;
   flex-grow: 1; 
 }
-
 .forecast-cards section {
   color: white;  
-  background-color:#313E62;
+  background-color:black;
   width: 150px;  
   padding: 10px;
 }  
-
 .forecast-cards {
   display: flex;
   gap: 20px;
@@ -85,6 +80,10 @@ li {
 
 .current-weather-card h1 {
   text-transform: capitalize;
+}
+
+.content-card {
+  background-color:rgb(248, 218, 223);
 }
 
 
